@@ -52,6 +52,12 @@ tokio-mockstream = "1.1.0"
 serde = "1.0"
 serde_derive = "1.0"
 serde_json = "1.0"
+quinn = "0.2.0"
+structopt = "0.2.7"
+rcgen = "0.2"
+directories = "1.0.2"
+failure = "0.1"
+tokio-current-thread = "0.1.6"
 
 [features]
 default = [
@@ -113,6 +119,11 @@ required-features = ["runtime"]
 [[example]]
 name = "proxy"
 path = "examples/proxy.rs"
+required-features = ["runtime"]
+
+[[example]]
+name = "quic_server"
+path = "examples/quic_server.rs"
 required-features = ["runtime"]
 
 [[example]]
