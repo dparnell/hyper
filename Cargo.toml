@@ -122,6 +122,11 @@ path = "examples/proxy.rs"
 required-features = ["runtime"]
 
 [[example]]
+name = "quic_client"
+path = "examples/quic_client.rs"
+required-features = ["runtime"]
+
+[[example]]
 name = "quic_server"
 path = "examples/quic_server.rs"
 required-features = ["runtime"]

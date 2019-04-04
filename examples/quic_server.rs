@@ -31,7 +31,7 @@ use tokio::runtime::current_thread::{Runtime};
 use std::ascii::AsciiExt;
 
 #[derive(StructOpt, Debug)]
-#[structopt(name = "server")]
+#[structopt(name = "quic_server")]
 struct Opt {
     /// file to log TLS keys to for debugging
     #[structopt(long = "keylog")]
